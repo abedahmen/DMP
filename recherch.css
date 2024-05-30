@@ -1,0 +1,160 @@
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style pour le titre de la page */
+h1 {
+    color: #343a40;
+    margin: 20px 0;
+}
+
+/* Style pour le header */
+header { 
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: right;
+}
+
+/* Style pour les boutons dans le header */
+.buttons {
+    margin-right: 20px;
+}
+
+.buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttons button.logout {
+    background-color: #dc3545; /* Rouge */
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.buttons button.logout:hover {
+    background-color: #c82333; /* Rouge plus foncé au survol */
+}
+
+/* Style pour le formulaire */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="search"],
+form input[type="date"],
+form input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Style pour la table */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les sections de liens */
+#cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#lienn {
+    text-decoration: none;
+    background-color: #28a745;
+    border-radius: 10px;
+    padding: 14px;
+    color: white;
+    margin: 0 10px;
+}
+
+#lienn:hover {
+    background-color: #218838;
+}
+
+
+/* Style pour le bouton "Ajouter un Nv patient" */
+button#addUserButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#addUserButton:hover {
+    background-color: #0056b3;
+}

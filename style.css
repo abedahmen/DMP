@@ -1,0 +1,61 @@
+
+.my-section {
+    background-color: #ECECEE;
+    box-sizing: border-box;
+
+}
+
+
+.container {
+    padding: 60px 60px;
+    width: 800px;
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 'ord radio' 'anna radio';
+}
+
+.container > div {
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container input {
+    padding: 12px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 8px;
+    outline: none;
+
+}
+
+.container button {
+    padding: 8px 20px;
+    align-self: flex-end;
+    border-radius: 10px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    font-weight: 600;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.ordennance {
+    grid-area: ord;
+
+}
+
+.annalyse {
+    grid-area: anna;
+
+}
+
+
+.radio {
+    grid-area: radio;
+}
